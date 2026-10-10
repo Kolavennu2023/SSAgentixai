@@ -1,0 +1,41 @@
+# Redundant logo copies — only public/logo.png is canonical
+/logo.png
+/src/assets/logo.png
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+node_modules
+dist
+dist-ssr
+*.local
+
+# TypeScript build info (generated artefact, not source)
+tsconfig.tsbuildinfo
+
+# Environment & secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Google Stitch design exports (design references, not source code)
+stitch_ssagentix_ai_corporate_website/
+stitch_ssagentix_ai_corporate_website.zip
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
